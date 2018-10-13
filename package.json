@@ -1,0 +1,40 @@
+{
+  "name": "one-look-srv",
+  "version": "1.0.0",
+  "description": "node server for One-look WeChat mini program",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "env2": "^2.2.2",
+    "hapi": "^16.6.3",
+    "hapi-auth-jwt2": "^7.4.1",
+    "hapi-pagination": "^1.22.0",
+    "hapi-swagger": "^7.10.0",
+    "inert": "^4.2.1",
+    "joi": "^13.6.0",
+    "jsonwebtoken": "^8.3.0",
+    "moment": "^2.22.2",
+    "mysql2": "^1.6.1",
+    "package": "^1.0.1",
+    "sequelize": "^4.38.1",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^4.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wushq5/one-look-srv.git"
+  },
+  "keywords": [
+    "wechat"
+  ],
+  "author": "rcrabwu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wushq5/one-look-srv/issues"
+  },
+  "homepage": "https://github.com/wushq5/one-look-srv#readme"
+}
