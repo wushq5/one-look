@@ -2,6 +2,7 @@ module.exports = {
   DATE_FORMAT: 'YYYY-MM-DD HH:mm:SS',
 
   ROUTE: {
-    MESSAGE: 'message'
+    MESSAGE: 'message',
+    USER: 'user'
   }
 }
